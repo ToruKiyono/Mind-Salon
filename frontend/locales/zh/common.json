@@ -1,0 +1,270 @@
+{
+  "app": {
+    "brand": "Mind Salon",
+    "theatre": "AI 剧场界面",
+    "language": "语言",
+    "english": "English",
+    "chinese": "中文",
+    "live": "实时",
+    "none": "无",
+    "visible": "可见",
+    "round": "轮次",
+    "turn": "发言",
+    "taskPrefix": "任务",
+    "noTimestamp": "无时间"
+  },
+  "header": {
+    "heroBody": "一个未来感协作智能剧场，智能角色依次登台推理，共同塑造焦点文稿。",
+    "runtime": "运行时",
+    "paused": "已暂停",
+    "source": "数据源",
+    "mock": "模拟",
+    "remote": "远程",
+    "tasks": "任务数",
+    "memory": "记忆数",
+    "session": "会话",
+    "noSession": "未选择会话"
+  },
+  "theme": {
+    "title": "主题引擎",
+    "youthful-girl": {
+      "label": "元气少女",
+      "note": "粉彩创意 AI 工作室",
+      "chips": [
+        "柔和",
+        "灵动",
+        "优雅"
+      ]
+    },
+    "wuxia-princess": {
+      "label": "武侠公主",
+      "note": "古风书院与翡翠卷轴",
+      "chips": [
+        "书院",
+        "玉色",
+        "卷轴"
+      ]
+    },
+    "tech-sci-fi": {
+      "label": "3D 科技科幻",
+      "note": "全息指挥中枢",
+      "chips": [
+        "玻璃",
+        "HUD",
+        "霓虹"
+      ]
+    }
+  },
+  "sessionAtlas": {
+    "title": "会话星图",
+    "subtitle": "活跃房间",
+    "empty": "暂无活跃会话。",
+    "turns": "轮对话"
+  },
+  "stage": {
+    "label": "舞台",
+    "activeRole": "当前角色",
+    "awaitingRole": "等待角色",
+    "focusManuscript": "焦点文稿",
+    "awaitingArtifact": "等待产物",
+    "noFocusArtifactYet": "沙龙尚未发布焦点产物。",
+    "currentArtifact": "当前产物",
+    "createdBy": "创建者",
+    "parent": "父节点",
+    "artifact": "产物",
+    "root": "根节点",
+    "resting": "静止",
+    "stageTransition": "阶段切换",
+    "status": {
+      "atRest": "思考空间静止中",
+      "sessionCreated": "会话已创建，等待第一位角色发言",
+      "openingSalon": "正在开启新的沙龙",
+      "weavingFollowup": "正在编入你的追问",
+      "adjustingProtocol": "正在调整协议路径",
+      "runtimeProcessing": "运行时处理中",
+      "runtimeCreateDetail": "运行时正在创建任务、会话外壳与第一轮协作。",
+      "followupAttached": "新的追问已附着到当前任务上下文。",
+      "controlApplied": "正在将协议控制应用到当前会话。",
+      "pendingLoop": "待处理工作仍在运行时循环中推进。",
+      "protocolWorking": "正在沿协议路径推进。",
+      "noRolePublished": "会话已存在，但尚未发布角色发言。",
+      "startOrContinue": "从下方干预栏启动新沙龙，或继续已有线程。",
+      "speaking": "正在发言",
+      "activeRoleSentence": "当前角色"
+    },
+    "stages": {
+      "intent": "意图",
+      "proposal": "提案",
+      "deliberation": "讨论",
+      "execution": "执行",
+      "review": "评审",
+      "feedback": "反馈",
+      "done": "完成"
+    },
+    "stageDescriptions": {
+      "intent": "正在理解任务边界",
+      "proposal": "正在起草协作方案",
+      "deliberation": "正在通过批评与挑战检验思路",
+      "execution": "正在将已批准路径转化为产物",
+      "review": "正在穿过评审门",
+      "feedback": "正在写入记忆与后续行动",
+      "done": "会话已完成"
+    }
+  },
+  "chat": {
+    "title": "角色对话时间线",
+    "subtitle": "智能角色依次发言",
+    "empty": "暂无角色发言。",
+    "turnFallback": "发言",
+    "noDecision": "无决策",
+    "noArtifactRef": "无产物引用",
+    "modelPending": "模型待定",
+    "blocks": {
+      "idea": "想法",
+      "structure": "结构",
+      "artifact": "产物",
+      "reflection": "反思"
+    },
+    "reflection": "反思",
+    "correction": "纠偏",
+    "strategy": "策略",
+    "stable": "稳定",
+    "turnTypes": {
+      "proposal": "提案",
+      "critique": "批评",
+      "challenge": "挑战",
+      "revision": "修订",
+      "review": "评审",
+      "feedback": "反馈",
+      "execution": "执行",
+      "intent": "意图"
+    }
+  },
+  "artifactLab": {
+    "title": "产物实验室",
+    "subtitle": "演化中的对象",
+    "empty": "暂无产物谱系。",
+    "rootObject": "根对象",
+    "revisionBranch": "修订分支",
+    "originNode": "源节点",
+    "by": "创建者"
+  },
+  "memoryPanel": {
+    "title": "记忆",
+    "subtitle": "持久信号",
+    "empty": "当前任务暂无记忆记录。"
+  },
+  "reviewGate": {
+    "title": "评审门",
+    "subtitle": "裁决室",
+    "awaiting": "等待中",
+    "decisionRole": "决策角色",
+    "canRevise": "可修订",
+    "lastDecision": "上次决策"
+  },
+  "intervention": {
+    "title": "干预命令栏",
+    "subtitle": "在不打断舞台的前提下引导协作",
+    "detail": "会话操作与追问输入",
+    "openSalon": "开启新沙龙",
+    "frameTask": "为沙龙描述一个新任务...",
+    "startSalon": "启动沙龙",
+    "starting": "启动中...",
+    "continueDeliberation": "继续讨论",
+    "requestReview": "请求评审",
+    "enterRevisePath": "进入修订路径",
+    "speakThread": "向当前线程发言",
+    "followupPlaceholder": "提出追问、修订要求或下一步...",
+    "selectSessionFirst": "请先选择会话",
+    "runNextStep": "执行下一步",
+    "running": "执行中...",
+    "noTaskSelected": "未选择任务",
+    "mockRuntimeAlert": "当前数据源为 Mock Runtime。请先在检查器 / 设置中配置运行时地址并应用，然后再启动沙龙。"
+  },
+  "inspector": {
+    "title": "检查器 / 设置（开发模式）",
+    "runtimeEndpoint": "运行时地址",
+    "runtimeEndpointPlaceholder": "http://127.0.0.1:8000",
+    "apply": "应用",
+    "perRoleRouting": "按角色模型路由",
+    "modelPlaceholder": "模型 ID",
+    "lowLevelControls": "底层运行时控制",
+    "resumeSession": "恢复会话",
+    "pauseSession": "暂停会话",
+    "events": "事件",
+    "stream": "检查器事件流",
+    "empty": "暂无事件。"
+  },
+  "roles": {
+    "planner": {
+      "badge": "规划师",
+      "persona": "学院少女",
+      "title": "为任务建立框架"
+    },
+    "architect": {
+      "badge": "架构师",
+      "persona": "工程天才",
+      "title": "构建整体结构"
+    },
+    "critic": {
+      "badge": "批评者",
+      "persona": "冷静学者",
+      "title": "打磨推理质量"
+    },
+    "challenger": {
+      "badge": "挑战者",
+      "persona": "刺客剑士",
+      "title": "施加压力测试"
+    },
+    "reviewer": {
+      "badge": "审阅者",
+      "persona": "裁决官",
+      "title": "给出最终裁决"
+    },
+    "creator": {
+      "badge": "创作者",
+      "persona": "制造者",
+      "title": "执行产物生成"
+    },
+    "verifier": {
+      "badge": "验证者",
+      "persona": "检察官",
+      "title": "检查质量"
+    },
+    "coordinator": {
+      "badge": "协调者",
+      "persona": "指挥者",
+      "title": "维持协作节奏"
+    },
+    "fallback": {
+      "persona": "角色",
+      "title": "参与当前协作"
+    }
+  },
+  "status": {
+    "done": "已完成",
+    "running": "运行中",
+    "queued": "排队中",
+    "pending": "等待中",
+    "paused": "已暂停",
+    "failed": "失败"
+  },
+  "events": {
+    "types": {
+      "stage_changed": "阶段变更",
+      "round_advanced": "轮次推进",
+      "role_turn_started": "角色发言开始",
+      "role_turn_completed": "角色发言完成",
+      "role_reflected": "角色已反思",
+      "role_corrected": "角色已纠偏",
+      "role_strategy_updated": "角色策略已更新",
+      "artifact_created": "产物已创建",
+      "artifact_revised": "产物已修订",
+      "review_requested": "已请求评审",
+      "review_approved": "评审通过",
+      "review_rejected": "评审拒绝",
+      "session_paused": "会话已暂停",
+      "human_intervened": "人工已介入"
+    }
+  }
+}

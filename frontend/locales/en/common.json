@@ -1,0 +1,270 @@
+{
+  "app": {
+    "brand": "Mind Salon",
+    "theatre": "AI Theatre Interface",
+    "language": "Language",
+    "english": "English",
+    "chinese": "中文",
+    "live": "Live",
+    "none": "None",
+    "visible": "visible",
+    "round": "Round",
+    "turn": "turn",
+    "taskPrefix": "task",
+    "noTimestamp": "No timestamp"
+  },
+  "header": {
+    "heroBody": "A futuristic collaboration theatre where intelligent characters step onto the stage, reason in sequence, and shape the manuscript together.",
+    "runtime": "Runtime",
+    "paused": "Paused",
+    "source": "Source",
+    "mock": "Mock",
+    "remote": "Remote",
+    "tasks": "Tasks",
+    "memory": "Memory",
+    "session": "Session",
+    "noSession": "No session selected"
+  },
+  "theme": {
+    "title": "Theme Engine",
+    "youthful-girl": {
+      "label": "Youthful Girl",
+      "note": "Pastel creative AI studio",
+      "chips": [
+        "Soft",
+        "Playful",
+        "Elegant"
+      ]
+    },
+    "wuxia-princess": {
+      "label": "Wuxia Princess",
+      "note": "Ancient academy with jade and scrolls",
+      "chips": [
+        "Scholar",
+        "Jade",
+        "Scroll"
+      ]
+    },
+    "tech-sci-fi": {
+      "label": "3D Tech Sci-Fi",
+      "note": "Holographic command center",
+      "chips": [
+        "Glass",
+        "HUD",
+        "Neon"
+      ]
+    }
+  },
+  "sessionAtlas": {
+    "title": "Session Atlas",
+    "subtitle": "Active Rooms",
+    "empty": "No active sessions yet.",
+    "turns": "turns"
+  },
+  "stage": {
+    "label": "Stage",
+    "activeRole": "Active Role",
+    "awaitingRole": "Awaiting role",
+    "focusManuscript": "Focus Manuscript",
+    "awaitingArtifact": "Awaiting artifact",
+    "noFocusArtifactYet": "The salon has not published a focus artifact yet.",
+    "currentArtifact": "Current artifact",
+    "createdBy": "Created By",
+    "parent": "Parent",
+    "artifact": "Artifact",
+    "root": "Root",
+    "resting": "Resting",
+    "stageTransition": "Stage Transition",
+    "status": {
+      "atRest": "Thinking studio at rest",
+      "sessionCreated": "Session created, waiting for the first voice",
+      "openingSalon": "Opening a new salon",
+      "weavingFollowup": "Weaving in your follow-up",
+      "adjustingProtocol": "Adjusting the protocol path",
+      "runtimeProcessing": "Runtime is processing",
+      "runtimeCreateDetail": "The runtime is creating the task, session shell, and first collaborative pass.",
+      "followupAttached": "The new prompt has been attached to the current task context.",
+      "controlApplied": "A protocol control is being applied to the active session.",
+      "pendingLoop": "Pending work is still moving through the runtime loop.",
+      "protocolWorking": "Working through the protocol.",
+      "noRolePublished": "The session exists but no role turn has been published yet.",
+      "startOrContinue": "Start a salon or continue an existing thread from the intervention bar below.",
+      "speaking": "is speaking",
+      "activeRoleSentence": "Active role"
+    },
+    "stages": {
+      "intent": "Intent",
+      "proposal": "Proposal",
+      "deliberation": "Deliberation",
+      "execution": "Execution",
+      "review": "Review",
+      "feedback": "Feedback",
+      "done": "Done"
+    },
+    "stageDescriptions": {
+      "intent": "Understanding the task frame",
+      "proposal": "Drafting the collaborative plan",
+      "deliberation": "Testing ideas through critique and challenge",
+      "execution": "Turning the approved path into artifacts",
+      "review": "Holding the review gate",
+      "feedback": "Writing memory and follow-through",
+      "done": "Session complete"
+    }
+  },
+  "chat": {
+    "title": "Role Dialogue Timeline",
+    "subtitle": "Intelligent personas speaking in sequence",
+    "empty": "No role turns yet.",
+    "turnFallback": "turn",
+    "noDecision": "No decision",
+    "noArtifactRef": "No artifact ref",
+    "modelPending": "Model pending",
+    "blocks": {
+      "idea": "Idea",
+      "structure": "Structure",
+      "artifact": "Artifact",
+      "reflection": "Reflection"
+    },
+    "reflection": "Reflection",
+    "correction": "Correction",
+    "strategy": "Strategy",
+    "stable": "Stable",
+    "turnTypes": {
+      "proposal": "Proposal",
+      "critique": "Critique",
+      "challenge": "Challenge",
+      "revision": "Revision",
+      "review": "Review",
+      "feedback": "Feedback",
+      "execution": "Execution",
+      "intent": "Intent"
+    }
+  },
+  "artifactLab": {
+    "title": "Artifact Lab",
+    "subtitle": "Evolving objects",
+    "empty": "No artifact lineage yet.",
+    "rootObject": "Root object",
+    "revisionBranch": "Revision branch",
+    "originNode": "Origin node",
+    "by": "by"
+  },
+  "memoryPanel": {
+    "title": "Memory",
+    "subtitle": "Persistent signals",
+    "empty": "No memory records linked to this task."
+  },
+  "reviewGate": {
+    "title": "Review Gate",
+    "subtitle": "Judgment Chamber",
+    "awaiting": "Awaiting",
+    "decisionRole": "Decision Role",
+    "canRevise": "Can Revise",
+    "lastDecision": "Last Decision"
+  },
+  "intervention": {
+    "title": "Intervention Command Bar",
+    "subtitle": "Guide the collaboration without breaking the scene",
+    "detail": "Session actions and follow-up entry",
+    "openSalon": "Open a new salon",
+    "frameTask": "Frame a new task for the salon...",
+    "startSalon": "Start Salon",
+    "starting": "Starting...",
+    "continueDeliberation": "Continue Deliberation",
+    "requestReview": "Request Review",
+    "enterRevisePath": "Enter Revise Path",
+    "speakThread": "Speak into the active thread",
+    "followupPlaceholder": "Ask for a follow-up, revision, or next step...",
+    "selectSessionFirst": "Select a session first",
+    "runNextStep": "Run Next Step",
+    "running": "Running...",
+    "noTaskSelected": "No task selected",
+    "mockRuntimeAlert": "Current data source is Mock Runtime. Set Runtime Endpoint in Inspector / Settings and apply it before starting a salon."
+  },
+  "inspector": {
+    "title": "Inspector / Settings (Dev Mode)",
+    "runtimeEndpoint": "Runtime Endpoint",
+    "runtimeEndpointPlaceholder": "http://127.0.0.1:8000",
+    "apply": "Apply",
+    "perRoleRouting": "Per-role Model Routing",
+    "modelPlaceholder": "model id",
+    "lowLevelControls": "Low-level Runtime Controls",
+    "resumeSession": "Resume Session",
+    "pauseSession": "Pause Session",
+    "events": "Events",
+    "stream": "Inspector Stream",
+    "empty": "No events captured."
+  },
+  "roles": {
+    "planner": {
+      "badge": "Planner",
+      "persona": "Academy Girl",
+      "title": "Frames the mission"
+    },
+    "architect": {
+      "badge": "Architect",
+      "persona": "Engineer Genius",
+      "title": "Builds the structure"
+    },
+    "critic": {
+      "badge": "Critic",
+      "persona": "Calm Scholar",
+      "title": "Sharpens the reasoning"
+    },
+    "challenger": {
+      "badge": "Challenger",
+      "persona": "Assassin Swordsman",
+      "title": "Applies pressure"
+    },
+    "reviewer": {
+      "badge": "Reviewer",
+      "persona": "Judge",
+      "title": "Delivers the verdict"
+    },
+    "creator": {
+      "badge": "Creator",
+      "persona": "Maker",
+      "title": "Executes the artifact"
+    },
+    "verifier": {
+      "badge": "Verifier",
+      "persona": "Inspector",
+      "title": "Checks quality"
+    },
+    "coordinator": {
+      "badge": "Coordinator",
+      "persona": "Conductor",
+      "title": "Keeps the room aligned"
+    },
+    "fallback": {
+      "persona": "Role",
+      "title": "Participating in the salon"
+    }
+  },
+  "status": {
+    "done": "Done",
+    "running": "Running",
+    "queued": "Queued",
+    "pending": "Pending",
+    "paused": "Paused",
+    "failed": "Failed"
+  },
+  "events": {
+    "types": {
+      "stage_changed": "Stage changed",
+      "round_advanced": "Round advanced",
+      "role_turn_started": "Role turn started",
+      "role_turn_completed": "Role turn completed",
+      "role_reflected": "Role reflected",
+      "role_corrected": "Role corrected",
+      "role_strategy_updated": "Role strategy updated",
+      "artifact_created": "Artifact created",
+      "artifact_revised": "Artifact revised",
+      "review_requested": "Review requested",
+      "review_approved": "Review approved",
+      "review_rejected": "Review rejected",
+      "session_paused": "Session paused",
+      "human_intervened": "Human intervened"
+    }
+  }
+}
