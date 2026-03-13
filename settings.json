@@ -1,0 +1,34 @@
+{
+  "autoUpdatesChannel": "latest",
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://dashscope.aliyuncs.com/apps/anthropic/v1/messages",
+    "ANTHROPIC_AUTH_TOKEN": "",
+    "ANTHROPIC_MODEL": "qwen-plus"
+  },
+  "agents": {
+    "qwen_main": {
+      "provider": "siliconflow",
+      "model": "qwen-plus",
+      "api_key_env": "SILICONFLOW_API",
+      "base_url": "https://dashscope.aliyuncs.com/apps/anthropic",
+      "api_style": "anthropic",
+      "roles": ["planner", "architect", "critic", "creator", "verifier", "coordinator"]
+    },
+    "reviewer_backup": {
+      "provider": "siliconflow",
+      "model": "Pro/zai-org/GLM-4.7",
+      "api_key_env": "SILICONFLOW_API",
+      "base_url": "https://dashscope.aliyuncs.com/apps/anthropic",
+      "api_style": "anthropic"
+    }
+  },
+  "role_bindings": {
+    "reviewer": {
+      "agents": ["reviewer_backup", "qwen_main"],
+      "strategy": "fallback"
+    }
+  },
+  "agent_bindings": {
+    "reviewer_backup": ["reviewer"]
+  }
+}
